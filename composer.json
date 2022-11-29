@@ -25,11 +25,13 @@
         "phpunit/phpunit": "^9.3.3"
     },
     "autoload": {
+        "exclude-from-classmap": ["vendor/livewire/livewire/src/Controllers/FilePreviewHandler.php", "vendor/livewire/livewire/src/Controllers/FileUploadHandler.php"],
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": ["app/overrides/livewire/FilePreviewHandler.php", "app/overrides/livewire/FileUploadHandler.php"]
     },
     "autoload-dev": {
         "psr-4": {
