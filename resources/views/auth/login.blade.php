@@ -37,10 +37,8 @@
                         <input type="checkbox" class="custom-control-input" name="remember" id="rememberme">
                         <label class="custom-control-label m-0" for="rememberme">Remember Me</label>
                     </div>
-                    <<<<<<< HEAD <button type="submit" class="btn btn-secondary col-md-5 float-right mt-3 mt-sm-0 fw-bold">Masuk</button>
-                        =======
-                        <button type="submit" class="btn btn-secondary col-md-5 float-right mt-3 mt-sm-0 fw-bold">Masuk</button>
-                        >>>>>>> 99199a0 (update)
+
+                    <button type="submit" class="btn btn-secondary col-md-5 float-right mt-3 mt-sm-0 fw-bold">Masuk</button>
                 </div>
             </div>
         </form>

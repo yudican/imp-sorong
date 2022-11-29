@@ -29,7 +29,8 @@
   <link rel="stylesheet" href="{{asset('assets/css/atlantis2.css')}}">
 
   <!-- Styles -->
-  {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
+  {{--
+  <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
   @stack('styles')
   @livewireStyles
   <style>
@@ -93,8 +94,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg">
           <img src="{{asset('storage/'.$profile->logo)}}" height="50" alt="navbar brand" class="navbar-brand">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>
 
@@ -126,8 +126,7 @@
     <footer class="footer">
       <div class="container">
         <div class="copyright ml-auto">
-          {{date('Y')}}, made with <i class="fa fa-heart heart text-danger"></i> by <a
-            href="http://www.themekita.com">ThemeKita</a>
+          <span>Imp Sorong</span>
         </div>
       </div>
     </footer>
